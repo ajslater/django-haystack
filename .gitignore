@@ -17,4 +17,6 @@ env3
 
 # Build artifacts from test setup
 *.tgz
+haystack/version.py
 test_haystack/solr_tests/server/solr4/
+wheels
