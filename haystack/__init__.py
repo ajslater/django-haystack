@@ -15,8 +15,6 @@ except DistributionNotFound:
     __version__ = "0.0.dev0"
     version_info = parse_version(__version__)
 
-default_app_config = "haystack.apps.HaystackConfig"
-
 
 # Help people clean up from 1.X.
 if hasattr(settings, "HAYSTACK_SITECONF"):
