@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from setuptools import setup
 
-install_requires = ["Django>=2.2"]
+install_requires = ["Django>=4.0"]
 
 tests_require = [
     "pysolr>=3.7.0",
@@ -14,9 +14,9 @@ tests_require = [
 ]
 
 setup(
-    name="django-haystack",
+    name="codex-django-haystack",
     use_scm_version=True,
-    description="Pluggable search for Django.",
+    description="Pluggable search for Django. Special patched edition for Django 4.0",
     author="Daniel Lindsley",
     author_email="daniel@toastdriven.com",
     long_description=open("README.rst", "r").read(),
@@ -39,6 +39,7 @@ setup(
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.1",
         "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.0",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
